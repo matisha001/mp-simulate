@@ -1,0 +1,23 @@
+{
+  "name": "@mts/demo-karma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "karma": "^4.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-dirname-preprocessor": "0.0.4",
+    "karma-filemap-preprocessor": "^0.1.0",
+    "karma-webpack": "^3.0.5",
+    "miniprogram-simulate": "^1.0.0",
+    "mocha": "^6.0.1",
+    "karma-mocha": "^1.3.0",
+    "webpack": "^4.29.5"
+  }
+}

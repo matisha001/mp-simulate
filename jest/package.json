@@ -1,0 +1,22 @@
+{
+  "name": "@mts/demo-jest",
+  "version": "1.0.0",
+  "description": "https://github.com/xiaojinfe/gdui-weapp/tree/a76b3b150ca77fb8b092faa38a12e1a3cf3ffa64 https://github.com/DocBug/boom/blob https://github.com/liyamei123/miniprogram-calendar",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test/**/*.test.js --silent --bail",
+    "coverage": "jest ./test/**/*.test.js --coverage --bail",
+    "codecov": "jest ./test/***/*.test.js --coverage && codecov"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codecov": "^3.2.0",
+    "jest": "^24.1.0",
+    "miniprogram-simulate": "^1.0.0"
+  }
+}
